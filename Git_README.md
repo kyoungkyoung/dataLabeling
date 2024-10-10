@@ -8,37 +8,27 @@ git repo: https://github.com/kyoungkyoung/snack_project
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image.png)
 
-1. Code → HTTPS 로 복사
+2. Code → HTTPS 로 복사
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%201.png)
 
-1. git repo 연결할 폴더로 위치 이동 (저는 yolov11 위치에 할겁니당~~~)
+3. git repo 연결할 폴더로 위치 이동 (저는 yolov11 위치에 할겁니당~~~)
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%202.png)
 
-1. git clone 해주기 → 하위 폴더/파일 리스트 확인해보면 snack_project 생성된 것을 알 수 있음
+4. git clone 해주기 → 하위 폴더/파일 리스트 확인해보면 snack_project 생성된 것을 알 수 있음
 
-<aside>
-📌
-
-git clone [https://github.com/kyoungkyoung/snack_project.git](https://github.com/kyoungkyoung/snack_project.git)
-
-</aside>
+> git clone [https://github.com/kyoungkyoung/snack_project.git](https://github.com/kyoungkyoung/snack_project.git)
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%203.png)
 
-1. branch 목록 및 현재 branch 위치 확인 → main
+5. branch 목록 및 현재 branch 위치 확인 → main
 
-<aside>
-📌
-
-git branch
-
-</aside>
+> git branch
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%204.png)
 
-1. 현재 branch 위치가 main 이라면 각자 이름으로 된 개인 branch 만들기 → branch 목록 확인
+6. 현재 branch 위치가 main 이라면 각자 이름으로 된 개인 branch 만들기 → branch 목록 확인
 
 <aside>
 📌
@@ -51,7 +41,7 @@ git branch
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%205.png)
 
-1. 내 branch 로 이동후, 현재 branch 위치 확인
+7. 내 branch 로 이동후, 현재 branch 위치 확인
 
 <aside>
 📌
@@ -64,8 +54,8 @@ git branch
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%206.png)
 
-1. 내 브랜치에서 코드 작업 → 절대로 main 이나 main_sub 또는 다른 사람 branch 에서 작업하지 마세요!!!
-2. 깃 staging 상태 확인, add, commit
+8. 내 브랜치에서 코드 작업 → 절대로 main 이나 main_sub 또는 다른 사람 branch 에서 작업하지 마세요!!!
+9. 깃 staging 상태 확인, add, commit
 
 <aside>
 📌
@@ -80,9 +70,10 @@ git commit -m “커밋메세지 작성”
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%207.png)
 
-1. git push 로 내 branch 수정 사항들 git 원격 repo에 올리기 (push 전에 branch 위치 한번 더 확인!!!)
-   - 에러 난다면 아직 git branch 가 없어서 그런 것! → 처음에만 에러나고 다음부터는 에러 안남
-   - push 다시하면 에러나지 않고 push가 잘 되는 것을 확인
+10. git push 로 내 branch 수정 사항들 git 원격 repo에 올리기 (push 전에 branch 위치 한번 더 확인!!!)
+
+- 에러 난다면 아직 git branch 가 없어서 그런 것! → 처음에만 에러나고 다음부터는 에러 안남
+- push 다시하면 에러나지 않고 push가 잘 되는 것을 확인
 
 <aside>
 📌
