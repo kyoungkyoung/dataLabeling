@@ -18,55 +18,32 @@ git repo: https://github.com/kyoungkyoung/snack_project
 
 4. git clone 해주기 → 하위 폴더/파일 리스트 확인해보면 snack_project 생성된 것을 알 수 있음
 
-> git clone [https://github.com/kyoungkyoung/snack_project.git](https://github.com/kyoungkyoung/snack_project.git)
+> **git clone [https://github.com/kyoungkyoung/snack_project.git](https://github.com/kyoungkyoung/snack_project.git)**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%203.png)
 
 5. branch 목록 및 현재 branch 위치 확인 → main
 
-> git branch
+> **git branch**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%204.png)
 
 6. 현재 branch 위치가 main 이라면 각자 이름으로 된 개인 branch 만들기 → branch 목록 확인
 
-<aside>
-📌
-
-git branch wk
-
-git branch
-
-</aside>
+> **git branch wk** > **git branch**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%205.png)
 
 7. 내 branch 로 이동후, 현재 branch 위치 확인
 
-<aside>
-📌
-
-git checkout wk
-
-git branch
-
-</aside>
+> **git checkout wk** > **git branch**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%206.png)
 
 8. 내 브랜치에서 코드 작업 → 절대로 main 이나 main_sub 또는 다른 사람 branch 에서 작업하지 마세요!!!
 9. 깃 staging 상태 확인, add, commit
 
-<aside>
-📌
-
-git status
-
-git add [add 할 파일 → 모든 파일은 .]
-
-git commit -m “커밋메세지 작성”
-
-</aside>
+> **git status** > **git add [add 할 파일 → 모든 파일은 .]** > **git commit -m “커밋메세지 작성”**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%207.png)
 
@@ -75,20 +52,15 @@ git commit -m “커밋메세지 작성”
 - 에러 난다면 아직 git branch 가 없어서 그런 것! → 처음에만 에러나고 다음부터는 에러 안남
 - push 다시하면 에러나지 않고 push가 잘 되는 것을 확인
 
-<aside>
-📌
-
-git branch
-
-git push
-
-</aside>
+> **git branch** > **git push**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%208.png)
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%209.png)
 
-# merge(병합) 할 때
+<aside>
+
+# **merge(병합) 할 때**
 
 <aside>
 🪢
@@ -107,36 +79,22 @@ git push
 1. main 브랜치와 main_sub 브랜치 pull로 코드 받아놓기
    - 최신 상태라면 ‘이미 업데이트 상태입니다.’ 라고 뜸
 
-<aside>
-📌
-
-git checkout main
-
-git pull
-
-git checkout main_sub
-
-git pull
+> **git checkout main** > **git pull** > **git checkout main_sub** > **git pull**
 
 </aside>
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%2010.png)
 
-1. 개인 작업 브랜치에서 작업 후, main_sub로 branch 위치 변경
+2. 개인 작업 브랜치에서 작업 후, main_sub로 branch 위치 변경
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%2011.png)
 
-1. main_sub 위치에서 개인 작업 브랜치 병합 진행
+3. main_sub 위치에서 개인 작업 브랜치 병합 진행
 
-<aside>
-📌
-
-git merge wk
-
-</aside>
+> **git merge wk**
 
 ![image.png](Git%2011b628471e8480fcaae4fd49616f2b3f/image%2012.png)
 
-1. main_sub 브랜치에서 마찬가지 stage 확인 후, add, commit 진행 ( 반드시 원격 repo 에서 pull 이 되어있는 상태에서 해야함! )
+4. main_sub 브랜치에서 마찬가지 stage 확인 후, add, commit 진행 ( 반드시 원격 repo 에서 pull 이 되어있는 상태에서 해야함! )
 
-1. 모든 작업 완료 후, main_sub 브랜치와 개인 작업 브랜치 push → 각각의 브랜치 위치에서 따로따로 진행!
+5. 모든 작업 완료 후, main_sub 브랜치와 개인 작업 브랜치 push → 각각의 브랜치 위치에서 따로따로 진행!
