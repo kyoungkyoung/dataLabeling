@@ -1,1 +1,7 @@
 .DS_Store
+images/
+labels/
+snack_dataOrg2/
+snack_dataOrg2_Augmentation/
+*.jpg
+*.txt
