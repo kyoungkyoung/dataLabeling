@@ -1,0 +1,37 @@
+(1회차) 이미지 네이밍 규칙
+
+차수_이미지_증식방법_효과
+1_snack1_resize_cv2_colorjitter_
+
+예시
+2_snack2_resize_torch_RandomErase
+
+
+---------------------------------------------------
+
+(2회차) 
+1. 이미지 네이밍 규칙
+
+	차수_이미지_배경_증식방법_효과
+	1_snack1_wh_resize_cv2_colorjitter_
+
+	예시
+	2_snack2_bk_resize_torch_RandomErase
+
+		- 회차 정보: 2회차 
+		- 클래스: 3개 ( snack1, snack2, snack3 )
+		- 배경:  3개 ( white - wh / black - bk / mustard - mt )
+		- 증식방법: 진행중
+
+
+2. 사진 촬영 규칙
+
+	사진촬영거리: 대략 10cm 간격으로 촬영
+		1: 10cm
+		2: 20cm
+		3: 30cm
+
+	사진촬영각도: 
+	1: 0도 정면
+	2: 30도 측면
+	3: 60도 측면
